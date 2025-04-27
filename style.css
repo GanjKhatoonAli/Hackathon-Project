@@ -21,8 +21,6 @@ body{
     position: relative;
     padding: 11.14px 100.23px 11.14px 100.23px;
     background-color: silver;
-    position:sticky;
-    top:0;
 }
 .navbar img{
    margin-right: 20px;
@@ -439,7 +437,7 @@ header img{
 }
 
 
-@media{
+@media (max-width:768px){
     section{
         width: 100%;
         flex-direction: column;

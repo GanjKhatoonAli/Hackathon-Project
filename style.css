@@ -39,6 +39,10 @@ body{
     color: #333;
     display: flex;
 }
+.navlinks a:hover{
+    border-bottom: 2px solid black;
+    color: antiquewhite;
+}
 .navlinks button{
     padding: 6px;
     background-color: rgb(1, 77, 1);

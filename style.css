@@ -184,20 +184,51 @@ header img{
     padding: 100px;
     background-color: silver;
 }
-.six{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 50px;
-   line-height: 1.4;
-   flex-direction: row;
-   
-   gap: 50px;
-   background-color: rgb(211, 207, 207);
-}
+.buds-section {
+    background-color: rgb(235, 232, 232);
+    padding: 50px 0;
+  }
+  
+  .buds-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .buds-image {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .buds-text {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .highlight {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .buds-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .buds-logos img {
+    height: 24px;
+    width: auto;
+    object-fit: contain;
+  }
 .context img{
     margin-right: 20px;
     vertical-align: middle;
+   
 }
 .context span{
     color: green;

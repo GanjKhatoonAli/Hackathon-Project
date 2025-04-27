@@ -272,16 +272,16 @@ header img{
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* changed */
-    align-items: flex-start; /* add this line */
-    max-width: 1200px;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    max-width: 100%;
     gap: 40px;
     margin: auto;
 }
 
 .footer-left {
     flex: 1 1 300px;
-    text-align: left; /* add this */
+    text-align: left; 
 }
 
 .footer-left img {
@@ -296,23 +296,23 @@ header img{
 }
 
 .social-icons {
-    display: flex; /* add */
-    gap: 10px; /* cleaner */
+    display: flex; 
+    gap: 10px; 
 }
 
 .social-icons a img {
     width: 35px;
 }
 
-/* Footer Right */
+
 .footer-right {
     flex: 2 1 600px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* changed */
-    align-items: flex-start; /* added */
+    justify-content: flex-start;
+    align-items: flex-start; 
     gap: 40px;
-    text-align: left; /* add */
+    text-align: left; 
 }
 
 .footer-links {
@@ -323,7 +323,7 @@ header img{
 
 .link-group {
     flex: 1;
-    text-align: left; /* add */
+    text-align: left; 
 }
 
 .link-group h4 {

@@ -10,6 +10,7 @@ body{
     height: 100vh;
     color: black;
     line-height: 1.3;
+    overflow-x: hidden;
 }
 .navbar{
     display: flex;
@@ -65,7 +66,7 @@ header{
 header img{
     position: relative;
     top: -10px; 
-   left: 900px; 
+   left: 600px; 
    max-width: 100%; 
    height: auto;
 }
@@ -407,17 +408,34 @@ header img{
 }
 
 @media (max-width: 768px) {
-    header img{
-        max-width: 100%;  
-        height: 100%;
-        margin: 0 auto;  
+    header {
+        width: 100%;
         display: flex;
         flex-direction: column;
-        top: 200px;   
-        padding: 100px;    
-        left: 10%;  
+        padding: 50px; /* optional: reduce padding for smaller screens */
+    }
+
+    header img {
+        max-width: 90%;
+        height: auto;
+        margin: 0 auto;
+        position: static; /* remove weird positioning on small screens */
+    }
+
+    .hello {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .hello h1,
+    .hello span,
+    .hello p,
+    .hello button {
+        margin-left: 0;
     }
 }
+
 
 @media{
     section{
@@ -427,5 +445,19 @@ header img{
     .six{
         width: 100%;
         flex-direction: column;
+    }
+}
+@media (max-width:768px) {
+    .client{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }

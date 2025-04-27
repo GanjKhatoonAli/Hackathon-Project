@@ -465,3 +465,46 @@ header img{
         width: 100%;
     }
 }
+@media (max-width: 786px) {
+    .footer {
+        padding: 40px 30px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-left, 
+    .footer-right, 
+    .subscribe-section {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .link-group {
+        text-align: center;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+        background: none;
+        gap: 10px;
+    }
+
+    .subscribe-form input {
+        width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
